@@ -58,10 +58,10 @@ header nav ul li a {
 footer {
   background: #fce138;
   padding: 40px 35px;
-  width: 100%;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  width: 100%;
 }
 
 footer h2 {
@@ -93,7 +93,6 @@ section {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-
 }
 
 .hero-cta {
@@ -196,6 +195,7 @@ section {
   width: 80%;
   border-bottom: 1px solid #39a6b2;
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
 }
@@ -216,23 +216,25 @@ section {
 .step-img {
   flex: 1 12%;
   margin-right: 20px;
+}
+
+.step-img img {
   max-width: 100%;
+}
+
+.step-text {
+  flex: 12;
+}
+
+.step-text p {
+  color: #39a6b2;
+  font-size: 18px;
 }
 
 .step-text h4 {
   font-size: 26px;
   line-height: 1.5;
   color: #024e76;
-}
-
-.step-text p {
-  color: #39a6b2;
-  font-size: 18px;
-  flex: 12;
-}
-
-.step-text {
-  flex: 12;
 }
 
 /* WHAT YOU DO STYLES END */
@@ -247,11 +249,10 @@ section {
 }
 
 .trainer {
-  margin: 20px auto 20px auto;
+  margin: 20px;
+  flex: 1;
   background: #024e76;
   color: #fce138;
-  flex: 1;
-  margin: 20px;
 }
 
 .trainer img {
@@ -280,8 +281,7 @@ section {
 
 /* REACH OUT STYLES START */
 .contact {
-  text-align: center;
-  background-color: #024e76;
+  background: #024e76;
 }
 
 .contact h2 {
@@ -300,7 +300,7 @@ section {
 }
 
 .contact-info iframe {
-
+  height: 400px;
 }
 
 .contact-info div {
@@ -317,10 +317,6 @@ section {
   line-height: 1.5;
   font-size: 16px;
   font-style: normal;
-}
-
-.contact-info a {
-  color: #fce138;
 }
 
 .contact-form input, .contact-form textarea {
@@ -342,6 +338,10 @@ section {
   text-align: center;
   padding: 15px 0;
   font-size: 16px;
+}
+
+.contact-info a {
+  color: #fce138;
 }
 
 
